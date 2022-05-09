@@ -1,3 +1,4 @@
+#!/bin/python
 """
     Takes in a parsed lpc dump and removed the hex dump
 """

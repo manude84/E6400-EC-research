@@ -166,7 +166,7 @@ for line in sys.stdin:
         # match = re.match(r"^.*?Write (0x[0-9A-F]{2}) port 0x0910", line)
         match = re.match(WRITE_INDEX, line)
         if match is not None:
-            if match.group(1) == "0x00":
+            if match.group(1) == "00":
                 line_buffer.append(line)
             else:
                 print_section(state)

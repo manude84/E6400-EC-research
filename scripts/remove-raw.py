@@ -1,6 +1,6 @@
 #!/bin/python
 """
-    Takes in a parsed lpc dump and removed the hex dump
+    Takes in a parsed lpc dump and removes the hex dump
 """
 import re
 import sys

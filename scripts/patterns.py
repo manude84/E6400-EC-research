@@ -1,4 +1,8 @@
 #!/bin/python
+"""
+    Takes in a parsed dump of LPC cycles and groups them according
+    to hard coded patterns found through observation
+"""
 import sys
 import re
 from enum import Enum
@@ -17,27 +21,29 @@ data = list()
 state = State.NA
 last_index = 256
 
-WRITE_INDEX = r"^.*Write (0x[0-9A-F]{2}) port 0x0910"
-READ_DATA = r"^.*Read (0x[0-9A-F]{2}) port 0x0911"
-WRITE_DATA = r"^.*Write (0x[0-9A-F]{2}) port 0x0911"
+WRITE_INDEX = r"^.*Write 0x([0-9A-F]{2}) port 0x0910"
+READ_DATA = r"^.*Read 0x([0-9A-F]{2}) port 0x0911"
+WRITE_DATA = r"^.*Write 0x([0-9A-F]{2}) port 0x0911"
 
 
 def print_section(state):
     global line_buffer, data, last_index
     start = last_index - len(data) + 1
     end = last_index
+    data_string = "".join([c if c.isprintable() and c.isascii() else "."
+                           for c in [chr(int(n, 16)) for n in data]])
     if state == State.READ:
         if len(data) == 1:
-            print(f"\n# Read EC index 0x{start:02X}: {data[0]}")
+            print(f"\n# Read EC index 0x{start:02X}: 0x{data[0]}")
         else:
-            print(f"\n# Read EC index 0x{start:02X}-0x{end:02X}: {{", end='')
-            print(", ".join(data) + "}")
+            print(f"\n# Read EC index 0x{start:02X}-0x{end:02X}: ", end='')
+            print(" ".join(data) + "  " + data_string)
     elif state == State.WRITE:
         if len(data) == 1:
-            print(f"\n# Write EC index 0x{start:02X}: {data[0]}")
+            print(f"\n# Write EC index 0x{start:02X}: 0x{data[0]}")
         else:
-            print(f"\n# Write EC index 0x{start:02X}-0x{end:02X}: {{", end='')
-            print(", ".join(data) + "}")
+            print(f"\n# Write EC index 0x{start:02X}-0x{end:02X}: ", end='')
+            print(" ".join(data) + "  " + data_string)
     elif state == State.WAIT:
         print("\n# Wait EC")
 

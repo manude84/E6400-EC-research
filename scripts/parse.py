@@ -1,4 +1,9 @@
 #!/bin/python
+"""
+    Parses the raw LPC cycle hex dumps and produces human readable
+    descriptions of each cycle. Also adds blank lines to separate
+    groups of similar port addresses
+"""
 import sys
 import re
 

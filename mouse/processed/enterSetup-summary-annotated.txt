@@ -1,0 +1,2703 @@
+
+02002E55FF660F	Write 0x55 port 0x002E
+02002E55FF6660F	Write 0x55 port 0x002E
+02002E42FF6660F	Write 0x24 port 0x002E
+02002F40FF660F	Write 0x04 port 0x002F
+02002EAAFF6660F	Write 0xAA port 0x002E
+
+02094E55FF660F	Write 0x55 port 0x094E
+02094E22FF660F	Write 0x22 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E32FF660F	Write 0x23 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E42FF660F	Write 0x24 port 0x094E
+02094F40FF660F	Write 0x04 port 0x094F
+02094E52FF660F	Write 0x25 port 0x094E
+02094F40FF660F	Write 0x04 port 0x094F
+02094E70FF660F	Write 0x07 port 0x094E
+02094F30FF660F	Write 0x03 port 0x094F
+02094E03FF660F	Write 0x30 port 0x094E
+02094F10FF660F	Write 0x01 port 0x094F
+02094E06FF660F	Write 0x60 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E16FF660F	Write 0x61 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E07FF660F	Write 0x70 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E27FF660F	Write 0x72 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E47FF660F	Write 0x74 port 0x094E
+02094F40FF660F	Write 0x04 port 0x094F
+02094E03FF660F	Write 0x30 port 0x094E
+02094F10FF660F	Write 0x01 port 0x094F
+02094E03FF660F	Write 0x30 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E70FF660F	Write 0x07 port 0x094E
+02094F40FF660F	Write 0x04 port 0x094F
+02094E03FF660F	Write 0x30 port 0x094E
+02094F10FF660F	Write 0x01 port 0x094F
+02094E06FF660F	Write 0x60 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E16FF660F	Write 0x61 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E07FF660F	Write 0x70 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E27FF660F	Write 0x72 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E03FF660F	Write 0x30 port 0x094E
+02094F10FF660F	Write 0x01 port 0x094F
+02094E03FF660F	Write 0x30 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E70FF660F	Write 0x07 port 0x094E
+02094F50FF660F	Write 0x05 port 0x094F
+02094E03FF660F	Write 0x30 port 0x094E
+02094F10FF660F	Write 0x01 port 0x094F
+02094E06FF660F	Write 0x60 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E16FF660F	Write 0x61 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E07FF660F	Write 0x70 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E27FF660F	Write 0x72 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E47FF660F	Write 0x74 port 0x094E
+02094F40FF660F	Write 0x04 port 0x094F
+02094E03FF660F	Write 0x30 port 0x094E
+02094F10FF660F	Write 0x01 port 0x094F
+02094E03FF660F	Write 0x30 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E70FF660F	Write 0x07 port 0x094E
+02094FC0FF660F	Write 0x0C port 0x094F
+02094E03FF660F	Write 0x30 port 0x094E
+02094F10FF660F	Write 0x01 port 0x094F
+02094E06FF660F	Write 0x60 port 0x094E
+02094F90FF660F	Write 0x09 port 0x094F
+02094E16FF660F	Write 0x61 port 0x094E
+02094F82FF660F	Write 0x28 port 0x094F
+02094E07FF660F	Write 0x70 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E27FF660F	Write 0x72 port 0x094E
+02094F00FF660F	Write 0x00 port 0x094F
+02094E47FF660F	Write 0x74 port 0x094E
+02094F10FF660F	Write 0x01 port 0x094F
+02094E03FF660F	Write 0x30 port 0x094E
+02094F10FF660F	Write 0x01 port 0x094F
+02094EAAFF660F	Write 0xAA port 0x094E
+
+# Write EC index 0x00: 0xC1
+
+# Wait EC
+
+000064FF666098F	Read 0x89 port 0x0064 # Read PS/2 status register
+000060FF666000F	Read 0x00 port 0x0060 # Flush output buffer
+000064FF666088F	Read 0x88 port 0x0064 # Output buffer empty
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0xAD
+
+# Wait EC
+
+# Read EC index 0x11: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0xAD
+
+# Wait EC
+
+# Read EC index 0x11: 0x00
+
+# Write EC index 0x00: 0xC2
+
+# Wait EC
+
+# Write EC index 0x12: 0x22
+
+# Write EC index 0x00: 0x43
+
+# Wait EC
+
+# Write EC index 0x12: 0x23
+
+# Write EC index 0x00: 0x43
+
+# Wait EC
+
+# Write EC index 0x12: 0x21
+
+# Write EC index 0x00: 0x43
+
+# Wait EC
+
+# Write EC index 0x00: 0xAB
+
+# Wait EC
+
+# Read EC index 0x11: 0x05
+
+# Write EC index 0x00: 0xAB
+
+# Wait EC
+
+# Read EC index 0x11: 0x05
+
+# Write EC index 0x13: 0x02
+
+# Write EC index 0x12: 0x03
+
+# Write EC index 0x00: 0xB3
+
+# Wait EC
+
+# Read EC index 0x11: 0x00
+
+# Write EC index 0x12: 0x01
+
+# Write EC index 0x00: 0x3E
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 01 02 00 00 00 07 10 03 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x05
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 11 00 00 00 00 82 00 00 03 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0xAB
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 05 00 00 00 00 82 00 00 03 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x3D
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 07 46 80 3D 00 00 00 55 00 31 1A 00 00 00 00  .F.=...U.1.....
+
+# Write EC index 0x12: 0x03
+
+# Write EC index 0x00: 0x8D
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 07 03 80 3D 00 00 00 55 00 31 1A 00 00 00 00  ...=...U.1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x33
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 07 00 80 3D 00 00 00 55 00 31 1A 00 00 00 00  ...=...U.1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x42
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 80 3D 00 00 00 55 00 31 1A 00 00 00 00  ...=...U.1.....
+
+# Write EC index 0x12-0x19: 02 20 22 05 21 07 10 06  . ".!...
+
+# Write EC index 0x00: 0x7C
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 02 20 22 05 21 07 10 06 31 1A 00 00 00 00  .. ".!...1.....
+
+# Write EC index 0x12-0x16: 03 00 08 00 00  .....
+
+# Write EC index 0x00: 0x7C
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 03 00 08 00 00 07 10 06 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12-0x16: 05 00 00 00 00  .....
+
+# Write EC index 0x00: 0x7C
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 05 00 00 00 00 07 10 06 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12-0x13: 04 02  ..
+
+# Write EC index 0x00: 0x7C
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 04 02 00 00 00 07 10 06 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12-0x13: 06 01  ..
+
+# Write EC index 0x00: 0x7C
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 06 01 00 00 00 07 10 06 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12-0x13: 07 02  ..
+
+# Write EC index 0x00: 0x7C
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 07 02 00 00 00 07 10 06 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12: 0x02
+
+# Write EC index 0x00: 0x1A
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 02 02 00 00 00 07 10 06 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0xAA
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 02 00 00 00 07 10 06 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12: 0x05
+
+# Write EC index 0x00: 0x6E
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 05 02 00 00 00 07 10 06 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12-0x14: 00 02 00  ...
+
+# Write EC index 0x00: 0x2B
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 02 00 00 00 07 10 06 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12-0x14: 02 02 01  ...
+
+# Write EC index 0x00: 0x2B
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 01 02 02 01 00 00 07 10 06 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12-0x14: 01 02 00  ...
+
+# Write EC index 0x00: 0x2B
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 01 02 00 00 00 07 10 06 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12: 0x12
+
+# Write EC index 0x00: 0x43
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 01 12 02 00 00 00 07 10 06 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x13: 0x02
+
+# Write EC index 0x12: 0x03
+
+# Write EC index 0x00: 0xB3
+
+# Wait EC
+
+# Read EC index 0x11: 0x00
+
+000064FF666088F	Read 0x88 port 0x0064 # Output buffer empty, unchanged since last read
+
+# Write EC index 0x12-0x14: 00 2F 10  ./.
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 2F 10 00 00 07 10 06 31 1A 00 00 00 00  ../......1.....
+
+# Write EC index 0x12-0x15: 43 6D 49 6E  CmIn
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12: 0x0D
+
+# Write EC index 0x00: 0x7E
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 0D 6D 49 6E 00 07 10 06 31 1A 00 00 00 00  ..mIn....1.....
+
+# Write EC index 0x12-0x14: 00 06 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 06 10 6E 00 07 10 06 31 1A 00 00 00 00  ....n....1.....
+
+# Write EC index 0x12-0x15: 44 69 73 56  DisV
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 43 4D 4F 53  CMOS
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 07 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 07 10 53 00 07 10 06 31 1A 00 00 00 00  ....S....1.....
+
+# Write EC index 0x12-0x15: 54 69 6D 72  Timr
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 08 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 08 10 72 00 07 10 06 31 1A 00 00 00 00  ....r....1.....
+
+# Write EC index 0x12-0x15: 44 4D 41 20  DMA 
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 09 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 09 10 20 00 07 10 06 31 1A 00 00 00 00  .... ....1.....
+
+# Write EC index 0x12-0x15: 44 50 67 65  DPge
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 52 66 73 68  Rfsh
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 0A 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 0A 10 68 00 07 10 06 31 1A 00 00 00 00  ....h....1.....
+
+# Write EC index 0x12-0x15: 49 4D 66 6C  IMfl
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 65 64 50 43  edPC
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 64 43 41 44  dCAD
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 43 50 55 74  CPUt
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 43 50 55 73  CPUs
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 4B 79 62 64  Kybd
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 0C 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 0C 10 64 00 07 10 06 31 1A 00 00 00 00  ....d....1.....
+
+000060FF666000F	Read 0x00 port 0x0060 # Flush output buffer
+000064FF666088F	Read 0x88 port 0x0064 # Output buffer clear
+020064AAFF660F	Write 0xAA port 0x0064 # Test PS/2 controller
+000064FF6660A8F	Read 0x8A port 0x0064 # Wait until output buffer full
+000064FF666088F	Read 0x88 port 0x0064
+000064FF666090F	Read 0x09 port 0x0064 # Output buffer full
+000060FF666055F	Read 0x55 port 0x0060 # Test passed
+02006406FF660F	Write 0x60 port 0x0064 # Write CCB
+000064FF6660A0F	Read 0x0A port 0x0064 # Wait for input buffer empty
+000064FF666080F	Read 0x08 port 0x0064 # Input buffer empty
+02006047FF660F	Write 0x74 port 0x0060 # 1st port translation enabled, both clocks disabled, system flag (passed post)
+
+# Write EC index 0x12-0x15: 49 42 56 61  IBVa
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 53 44 4D 41  SDMA
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 0D 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 0D 10 41 00 07 10 06 31 1A 00 00 00 00  ....A....1.....
+
+# Write EC index 0x12-0x15: 50 49 43 30  PIC0
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 0E 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 0E 10 30 00 07 10 06 31 1A 00 00 00 00  ....0....1.....
+
+# Write EC index 0x12-0x15: 49 6E 74 56  IntV
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 0F 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 0F 10 56 00 07 10 06 31 1A 00 00 00 00  ....V....1.....
+
+# Write EC index 0x12-0x15: 43 42 49 64  CBId
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 11 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 11 10 64 00 07 10 06 31 1A 00 00 00 00  ....d....1.....
+
+# Write EC index 0x12-0x15: 53 42 4D 6D  SBMm
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 45 70 50 43  EpPC
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 50 43 49 76  PCIv
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12: 0x0E
+
+# Write EC index 0x00: 0x7E
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 0E 43 49 76 00 07 10 06 31 1A 00 00 00 00  ..CIv....1.....
+
+# Write EC index 0x12-0x14: 00 13 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 13 10 76 00 07 10 06 31 1A 00 00 00 00  ....v....1.....
+
+# Write EC index 0x12-0x15: 45 61 50 43  EaPC
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 50 6F 6B 65  Poke
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 15 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 15 10 65 00 07 10 06 31 1A 00 00 00 00  ....e....1.....
+
+# Write EC index 0x12-0x17: 01 00 FD E3 FF FB  ......
+
+# Write EC index 0x00: 0xF9
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 01 00 FD E3 FF FB 10 06 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12-0x15: 41 53 46 77  ASFw
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 65 53 4D 49  eSMI
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12: 0x10
+
+# Write EC index 0x00: 0x7E
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 10 53 4D 49 FF FB 10 06 31 1A 00 00 00 00  ..SMI....1.....
+
+# Write EC index 0x12-0x14: 00 16 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 16 10 49 FF FB 10 06 31 1A 00 00 00 00  ....I....1.....
+
+# Read EC index 0x01: 0x88
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x04
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 04 11 00 00 00 00 00 00 00 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x05
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 11 00 00 00 00 82 00 00 00 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x05
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 11 00 00 00 00 82 00 00 00 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x05
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 11 00 00 00 00 82 00 00 00 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x59
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: FF 00 00 00 00 82 00 00 00 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12-0x13: 00 FF  ..
+
+# Write EC index 0x00: 0x58
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: FF 00 FF 00 00 82 00 00 00 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12-0x13: 05 00  ..
+
+# Write EC index 0x00: 0x31
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: FF 01 00 00 00 82 00 00 00 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12: 0x03
+
+# Write EC index 0x00: 0x59
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 98 00 00 00 00 82 00 00 00 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0xFC
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 98 00 00 00 00 82 00 00 00 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12: 0xFF
+
+# Write EC index 0x00: 0x0D
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 FF 00 00 00 82 00 00 00 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12-0x13: 06 0F  ..
+
+# Write EC index 0x00: 0x58
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 01 0F 00 00 82 00 00 00 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12-0x13: 05 0F  ..
+
+# Write EC index 0x00: 0x58
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 01 0F 00 00 82 00 00 00 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12: 0x02
+
+# Write EC index 0x00: 0x31
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 01 0F 00 00 82 00 00 00 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12-0x15: 50 6F 6B 65  Poke
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 53 69 67 6E  Sign
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 17 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 17 10 6E 82 00 00 00 31 1A 00 00 00 00  ....n....1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0xAB
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 05 00 17 10 6E 82 00 00 00 31 1A 00 00 00 00  ....n....1.....
+
+# Write EC index 0x12: 0x02
+
+# Write EC index 0x00: 0x27
+
+# Wait EC
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x17
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 00 00 00 00 00 00 00 00  ..........
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 00 00 00 00 00 00 00 00  ..........
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 00 00 00 00 00 00 00 00  ..........
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 00 00 00 00 00 00 00 00  ..........
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 00 00 00 00 00 00 00 00  ..........
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 00 00 00 00 00 00 00 00  ..........
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x13: 01 00  ..
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12-0x15: 4D 66 67 46  MfgF
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x42
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 66 67 46 00 00 00 00 00 00 00 00 00 00  ..fgF..........
+
+# Write EC index 0x12-0x15: 43 46 6C 52  CFlR
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 54 69 63 6B  Tick
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 1A 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 1A 10 6B 00 00 00 00 00 00 00 00 00 00  ....k..........
+
+# Write EC index 0x12-0x15: 53 69 7A 65  Size
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12: 0x03
+
+# Write EC index 0x00: 0x7E
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 03 69 7A 65 00 00 00 00 00 00 00 00 00 00  ..ize..........
+
+# Write EC index 0x12-0x14: 00 1C 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 1C 10 65 00 00 00 00 00 00 00 00 00 00  ....e..........
+
+# Read EC index 0x01: 0x40
+
+000924FF666000F	Read 0x00 port 0x0924
+02092504FF660F	Write 0x40 port 0x0925
+020920B3FF660F	Write 0x3B port 0x0920
+02092100FF6660F	Write 0x00 port 0x0921
+
+# Write EC index 0x12-0x15: 4C 4D 65 6D  LMem
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 65 62 64 61  ebda
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 55 53 42 30  USB0
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 1E 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 1E 10 30 00 00 00 00 00 00 00 00 00 00  ....0..........
+
+# Write EC index 0x12: 0x01
+
+# Write EC index 0x00: 0x6F
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12-0x15: 54 6D 72 32  Tmr2
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12: 0x0D
+
+# Write EC index 0x00: 0x7E
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 0D 6D 72 32 00 00 00 00 00 00 00 00 00 00  ..mr2..........
+
+# Write EC index 0x12-0x14: 00 1D 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 1D 10 32 00 00 00 00 00 00 00 00 00 00  ....2..........
+
+# Write EC index 0x12-0x15: 4B 65 79 62  Keyb
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 4B 72 73 74  Krst
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 4B 69 6E 74  Kint
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+000064FF666040F	Read 0x04 port 0x0064 # System flag set, passed POST
+
+# Read EC index 0x01: 0x08
+
+000924FF666000F	Read 0x00 port 0x0924
+02092504FF660F	Write 0x40 port 0x0925
+020920E3FF660F	Write 0x3E port 0x0920
+02092100FF660F	Write 0x00 port 0x0921
+
+000064FF666040F	Read 0x04 port 0x0064 # System flag set, passed port
+02006406FF660F	Write 0x60 port 0x0064 # Write 0x60 port 0x0064 # Write CCB
+000064FF6660E0F	Read 0x0E port 0x0064 # Wait until input buffer empty
+000064FF6660C0F	Read 0x0C port 0x0064 # Input buffer empty
+02006056FF6660F	Write 0x65 port 0x0060 # 1st port translation enabled, 2nd clock enabled, 1st port enabled, 1st port irq enabled
+000064FF666050F	Read 0x05 port 0x0064 # System flag set, passed post, output buffer full
+000060FF6660C3F	Read 0x3C port 0x0060 # F2 pressed
+000064FF666050F	Read 0x05 port 0x0064
+000060FF6660CBF	Read 0xBC port 0x0060 # F2 released
+000064FF666050F	Read 0x05 port 0x0064
+000060FF6660C3F	Read 0x3C port 0x0060 # F2 pressed
+000064FF666050F	Read 0x05 port 0x0064
+000060FF6660CBF	Read 0xBC port 0x0060 # F2 released
+000064FF666040F	Read 0x04 port 0x0064 # Output buffer empty
+
+# Write EC index 0x12-0x15: 4B 74 79 70  Ktyp
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+000064FF666040F	Read 0x04 port 0x0064 # System flag set, passed POST
+0200602FFF660F	Write 0xF2 port 0x0060 # Read keyboard ID
+
+# Write EC index 0x12-0x15: 41 32 30 20  A20 
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12: 0x0D
+
+# Write EC index 0x00: 0x7E
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 0D 32 30 20 00 00 00 00 00 00 00 00 00 00  ..20 ..........
+
+# Write EC index 0x12-0x14: 00 20 10  . .
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 20 10 20 00 00 00 00 00 00 00 00 00 00  .. . ..........
+
+000064FF666050F	Read 0x05 port 0x0064 # Output buffer full
+020064DAFF6660F	Write 0xAD port 0x0064 # Disable 1st PS/2 port
+000060FF6660AFF	Read 0xFA port 0x0060 # Acknowledge
+000064FF6660E0F	Read 0x0E port 0x0064 # Wait for input buffer empty
+000064FF6660C0F	Read 0x0C port 0x0064 # input buffer empty
+020064EAFF6660F	Write 0xAE port 0x0064 # Enable 1st PS/2 port
+
+# Write EC index 0x12-0x15: 41 53 46 6D  ASFm
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+000064FF6660D0F	Read 0x0D port 0x0064 # Output buffer full
+020064DAFF6660F	Write 0xAD port 0x0064 # Disable 1st PS/2 port
+000060FF6660BAF	Read 0xAB port 0x0060 # MF2 keyboard with translation enabled (first byte)
+000064FF6660E0F	Read 0x0E port 0x0064 # Wait for input buffer empty
+000064FF6660C0F	Read 0x0C port 0x0064 # input buffer empty
+020064EAFF660F	Write 0xAE port 0x0064 # Enable 1st PS/2 port
+
+# Write EC index 0x12-0x15: 54 69 6D 65  Time
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+000064FF6660D0F	Read 0x0D port 0x0064 # Input buffer empty
+020064DAFF660F	Write 0xAD port 0x0064 # Disable 1st PS/2 port
+000060FF666014F	Read 0x41 port 0x0060 # MF2 keyboard with translation enabled (second byte)
+000064FF6660E0F	Read 0x0E port 0x0064
+000064FF6660C0F	Read 0x0C port 0x0064 # Input buffer empty
+020064DAFF6660F	Write 0xAD port 0x0064 # Disable 1st PS/2 port
+000064FF6660E0F	Read 0x0E port 0x0064
+000064FF6660C0F	Read 0x0C port 0x0064 # Input buffer empty
+020060DEFF660F	Write 0xED port 0x0060 # Set LEDs
+000064FF666050F	Read 0x05 port 0x0064
+020064DAFF6660F	Write 0xAD port 0x0064 # Disable 1st PS/2 port
+000060FF6660AFF	Read 0xFA port 0x0060 # Acknowledge
+000064FF6660E0F	Read 0x0E port 0x0064 
+000064FF6660C0F	Read 0x0C port 0x0064
+020064EAFF6660F	Write 0xAE port 0x0064 # Enable 1st PS/2 port
+000064FF6660E0F	Read 0x0E port 0x0064
+000064FF6660C0F	Read 0x0C port 0x0064
+02006020FF660F	Write 0x02 port 0x0060 # Set numlock LED
+000064FF666050F	Read 0x05 port 0x0064
+020064DAFF660F	Write 0xAD port 0x0064 # Disable 1st PS/2 port
+000060FF6660AFF	Read 0xFA port 0x0060 # Acknowledge
+000064FF6660E0F	Read 0x0E port 0x0064
+000064FF6660C0F	Read 0x0C port 0x0064
+020064EAFF660F	Write 0xAE port 0x0064 # Enable 1st PS/2 port
+000064FF6660E0F	Read 0x0E port 0x0064
+000064FF6660C0F	Read 0x0C port 0x0064
+020064EAFF660F	Write 0xAE port 0x0064 # Enable 1st PS/2 port
+
+# Write EC index 0x12-0x14: 00 21 10  .!.
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 21 10 65 00 00 00 00 00 00 00 00 00 00  ..!.e..........
+
+# Write EC index 0x12-0x15: 4D 61 74 68  Math
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 41 43 50 49  ACPI
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 22 10  .".
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 22 10 49 00 00 00 00 00 00 00 00 00 00  ..".I..........
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x66
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 02 00 22 10 49 00 00 00 00 00 00 00 00 00 00  ..".I..........
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x66
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 02 00 22 10 49 00 00 00 00 00 00 00 00 00 00  ..".I..........
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x66
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 02 00 22 10 49 00 00 00 00 00 00 00 00 00 00  ..".I..........
+
+# Write EC index 0x12-0x15: 47 65 79 73  Geys
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 14 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 02 00 14 10 73 00 00 00 00 00 00 00 00 00 00  ....s..........
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x05
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 11 00 00 00 00 82 00 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12-0x13: 01 05  ..
+
+# Write EC index 0x00: 0xA5
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 11 01 05 00 00 82 00 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12-0x15: 45 4D 65 6D  EMem
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12: 0x03
+
+# Write EC index 0x00: 0x7E
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 11 03 4D 65 6D 82 00 00 00 00 00 00 00 00 00  ..Mem..........
+
+# Write EC index 0x12-0x14: 00 1F 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 11 00 1F 10 6D 82 00 00 00 00 00 00 00 00 00  ....m..........
+
+# Write EC index 0x12-0x15: 43 43 68 6B  CChk
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 53 61 75 78  Saux
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12: 0x0D
+
+# Write EC index 0x00: 0x7E
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 11 0D 61 75 78 82 00 00 00 00 00 00 00 00 00  ..aux..........
+
+000064FF6660C0F	Read 0x0C port 0x0064
+020064DAFF660F	Write 0xAD port 0x0064 # Disable 1st PS/2 port
+000064FF6660E0F	Read 0x0E port 0x0064
+000064FF6660C0F	Read 0x0C port 0x0064
+0200648AFF6660F	Write 0xA8 port 0x0064 # Enable 2nd PS/2 port
+000064FF6660E0F	Read 0x0E port 0x0064
+000064FF6660C0F	Read 0x0C port 0x0064
+02006406FF660F	Write 0x60 port 0x0064 # Write CCB
+000064FF6660E0F	Read 0x0E port 0x0064
+000064FF6660C0F	Read 0x0C port 0x0064
+02006074FF6660F	Write 0x47 port 0x0060 # 1st port translation enabled, both clocks enabled, both irqs enabled
+000064FF666060F	Read 0x06 port 0x0064
+000064FF666040F	Read 0x04 port 0x0064
+0200644DFF660F	Write 0xD4 port 0x0064 # Write next byte to 2nd input buffer
+000064FF6660E0F	Read 0x0E port 0x0064
+000064FF6660C0F	Read 0x0C port 0x0064
+020060FFFF660F	Write 0xFF port 0x0060 # Reset 2nd controller
+
+# Write EC index 0x12-0x15: 41 75 78 20  Aux 
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+000064FF666052F	Read 0x25 port 0x0064
+000060FF6660AFF	Read 0xFA port 0x0060
+000064FF666050F	Read 0x05 port 0x0064
+020064DAFF660F	Write 0xAD port 0x0064
+000060FF6660C3F	Read 0x3C port 0x0060
+000064FF6660E0F	Read 0x0E port 0x0064
+000064FF6660C0F	Read 0x0C port 0x0064
+020064EAFF660F	Write 0xAE port 0x0064
+000064FF6660D0F	Read 0x0D port 0x0064
+020064DAFF660F	Write 0xAD port 0x0064
+000060FF6660CBF	Read 0xBC port 0x0060
+000064FF6660E0F	Read 0x0E port 0x0064
+000064FF6660C0F	Read 0x0C port 0x0064
+020064EAFF660F	Write 0xAE port 0x0064
+000064FF6660D2F	Read 0x2D port 0x0064
+000060FF6660AAF	Read 0xAA port 0x0060
+000064FF6660D2F	Read 0x2D port 0x0064
+000060FF666000F	Read 0x00 port 0x0060
+000064FF6660C2F	Read 0x2C port 0x0064
+02006406FF6660F	Write 0x60 port 0x0064
+000064FF6660E2F	Read 0x2E port 0x0064
+000064FF6660C2F	Read 0x2C port 0x0064
+020060C7FF660F	Write 0x7C port 0x0060
+000064FF666062F	Read 0x26 port 0x0064
+000064FF666042F	Read 0x24 port 0x0064
+0200641DFF6660F	Write 0xD1 port 0x0064
+000064FF6660E2F	Read 0x2E port 0x0064
+000064FF6660C2F	Read 0x2C port 0x0064
+02006011FF660F	Write 0x11 port 0x0060
+000064FF666062F	Read 0x26 port 0x0064
+000064FF666042F	Read 0x24 port 0x0064
+02006406FF660F	Write 0x60 port 0x0064
+000064FF6660E2F	Read 0x2E port 0x0064
+000064FF6660C2F	Read 0x2C port 0x0064
+02006056FF660F	Write 0x65 port 0x0060
+000064FF666042F	Read 0x24 port 0x0064
+
+# Write EC index 0x12-0x15: 50 73 77 64  Pswd
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 28 10  .(.
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 11 00 28 10 64 82 00 00 00 00 00 00 00 00 00  ..(.d..........
+
+# Write EC index 0x12-0x13: 01 00  ..
+
+# Write EC index 0x00: 0xA2
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 11 01 00 10 64 82 00 00 00 00 00 00 00 00 00  ....d..........
+
+# Write EC index 0x12: 0xFF
+
+# Write EC index 0x00: 0x62
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 11 01 00 10 64 82 00 00 00 00 00 00 00 00 00  ....d..........
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x27
+
+# Wait EC
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x17
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 B6 36 35 44 39 4B 31 1A  ...65D9K1.
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x13: 01 00  ..
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 B6 36 35 44 39 4B 31 1A 00 00 00 00  ....65D9K1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x4E
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 33 33 6D 30 30 30 72 33 1A 00 00 00 00  ..33m000r3.....
+
+# Write EC index 0x03-0x0A: 00 00 00 00 00 00 00 00  ........
+
+# Write EC index 0x12: 0x02
+
+# Write EC index 0x00: 0x24
+
+# Wait EC
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x17
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Write EC index 0x14-0x1B: C5 79 CA AD 55 86 E4 2D  .y..U..-
+
+# Write EC index 0x13: 0x08
+
+# Write EC index 0x12: 0x01
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Write EC index 0x14-0x1B: 96 25 D4 98 A4 47 8A EC  .%...G..
+
+# Write EC index 0x13: 0x08
+
+# Write EC index 0x12: 0x01
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Write EC index 0x14-0x1B: B8 00 00 00 00 00 00 00  ........
+
+# Write EC index 0x13: 0x08
+
+# Write EC index 0x12: 0x01
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Write EC index 0x14-0x1B: 36 36 35 44 39 4B 31 31  665D9K11
+
+# Write EC index 0x13: 0x08
+
+# Write EC index 0x12: 0x01
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x01
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: FA 01 00 36 36 35 44 39 4B 31 31 00 00 00 00  ...665D9K11....
+
+# Write EC index 0x12: 0x0F
+
+# Write EC index 0x00: 0x0B
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 0F 00 36 36 35 44 39 4B 31 31 00 00 00 00  ...665D9K11....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x05
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 11 00 00 00 00 82 00 00 4B 31 31 00 00 00 00  ........K11....
+
+# Write EC index 0x12: 0x12
+
+# Write EC index 0x00: 0x43
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 01 12 00 00 00 82 00 00 4B 31 31 00 00 00 00  ........K11....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x05
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 11 00 00 00 00 82 00 00 4B 31 31 00 00 00 00  ........K11....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x05
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 11 00 00 00 00 82 00 00 4B 31 31 00 00 00 00  ........K11....
+
+# Write EC index 0x12: 0x09
+
+# Write EC index 0x00: 0x0B
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 09 00 00 00 82 00 00 4B 31 31 00 00 00 00  ........K11....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x22
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 82 00 00 4B 31 31 00 00 00 00  ........K11....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x21
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 82 00 00 4B 31 31 00 00 00 00  ........K11....
+
+# Write EC index 0x12: 0x02
+
+# Write EC index 0x00: 0xBA
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 02 00 00 00 82 00 00 4B 31 31 00 00 00 00  ........K11....
+
+# Write EC index 0x12-0x17: 15 00 00 00 00 68  .....h
+
+# Write EC index 0x00: 0x0B
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 15 00 00 00 00 68 00 4B 31 31 00 00 00 00  ......h.K11....
+
+# Write EC index 0x12-0x15: 47 53 43 20  GSC 
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 70 50 43 49  pPCI
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 63 50 43 49  cPCI
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12: 0x0C
+
+# Write EC index 0x00: 0x7E
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 0C 50 43 49 00 68 00 4B 31 31 00 00 00 00  ..PCI.h.K11....
+
+# Write EC index 0x12-0x14: 00 2D 10  .-.
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 2D 10 49 00 68 00 4B 31 31 00 00 00 00  ..-.I.h.K11....
+
+# Write EC index 0x12: 0x01
+
+# Write EC index 0x00: 0x85
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 01 2D 10 49 00 68 00 4B 31 31 00 00 00 00  ..-.I.h.K11....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x6D
+
+# Wait EC
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x17
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 10 32 54 76 98 0A 00 00  ...2Tv....
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 FF 00 00 00 00 00 0B A2  ..........
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x13: 01 00  ..
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 FF 00 00 00 00 00 0B A2 00 00 00 00  ...............
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x42
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 FF 00 00 00 00 00 0B A2 00 00 00 00  ...............
+
+# Write EC index 0x12-0x15: 61 50 43 49  aPCI
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 55 53 42 6D  USBm
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 31 33 39 34  1394
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x27
+
+# Wait EC
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x17
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 B6 36 35 44 39 4B 31 1A  ...65D9K1.
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x13: 01 00  ..
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 B6 36 35 44 39 4B 31 1A 00 00 00 00  ....65D9K1.....
+
+# Write EC index 0x12-0x15: 48 44 73 6B  HDsk
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12: 0x06
+
+# Write EC index 0x00: 0x7E
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 06 44 73 6B 35 44 39 4B 31 1A 00 00 00 00  ..Dsk5D9K1.....
+
+# Write EC index 0x12-0x14: 00 29 10  .).
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 29 10 6B 35 44 39 4B 31 1A 00 00 00 00  ..).k5D9K1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x15
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: FF 00 29 10 6B 35 44 39 4B 31 1A 00 00 00 00  ..).k5D9K1.....
+
+# Write EC index 0x12-0x15: 48 44 70 6D  HDpm
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 69 34 30 68  i40h
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 44 61 74 65  Date
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 73 73 63 6B  ssck
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 2C 10  .,.
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: FF 00 2C 10 6B 35 44 39 4B 31 1A 00 00 00 00  ..,.k5D9K1.....
+
+# Write EC index 0x12-0x15: 46 6C 61 67  Flag
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 65 4E 4D 49  eNMI
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 2E 10  ...
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: FF 00 2E 10 49 35 44 39 4B 31 1A 00 00 00 00  ....I5D9K1.....
+
+# Write EC index 0x12-0x15: 45 71 75 70  Equp
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 4D 69 63 65  Mice
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+000064FF666042F	Read 0x24 port 0x0064
+02006406FF660F	Write 0x60 port 0x0064 # Write CCB
+000064FF6660E2F	Read 0x2E port 0x0064
+000064FF6660C2F	Read 0x2C port 0x0064
+02006056FF660F	Write 0x65 port 0x0060 # 1st port translation enabled, 1st clock enabled, 2nd clock disabled, 1st irq enabled, 2nd irq disabled
+
+# Write EC index 0x12-0x15: 4B 62 64 52  KbdR
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Read EC index 0x01: 0x80
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x04
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 20 11 00 00 00 00 00 00 00 31 1A 00 00 00 00   ........1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x86
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 02 60 65 00 00 00 00 00 00 31 1A 00 00 00 00  .`e......1.....
+
+# Write EC index 0x12-0x15: 53 4E 44 49  SNDI
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12: 0x01
+
+# Write EC index 0x00: 0x34
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 02 01 4E 44 49 00 00 00 00 31 1A 00 00 00 00  ..NDI....1.....
+
+# Write EC index 0x12: 0x01
+
+# Write EC index 0x00: 0x60
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 02 01 4E 44 49 00 00 00 00 31 1A 00 00 00 00  ..NDI....1.....
+
+# Write EC index 0x12-0x15: 53 49 47 4D  SIGM
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x15
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: FF 00 49 47 4D 00 00 00 00 31 1A 00 00 00 00  ..IGM....1.....
+
+# Write EC index 0x12-0x15: 62 61 74 74  batt
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 30 10  .0.
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: FF 00 30 10 74 00 00 00 00 31 1A 00 00 00 00  ..0.t....1.....
+
+# Write EC index 0x12-0x15: 73 6D 69 55  smiU
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 31 10  .1.
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: FF 00 31 10 55 00 00 00 00 31 1A 00 00 00 00  ..1.U....1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x19
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: FF 00 31 10 55 00 00 00 00 31 1A 00 00 00 00  ..1.U....1.....
+
+# Write EC index 0x12: 0x02
+
+# Write EC index 0x00: 0x19
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: FF 02 31 10 55 00 00 00 00 31 1A 00 00 00 00  ..1.U....1.....
+
+# Write EC index 0x12: 0x01
+
+# Write EC index 0x00: 0x18
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: FF 01 31 10 55 00 00 00 00 31 1A 00 00 00 00  ..1.U....1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0xAB
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 05 00 31 10 55 00 00 00 00 31 1A 00 00 00 00  ..1.U....1.....
+
+# Write EC index 0x12-0x14: 00 02 00  ...
+
+# Write EC index 0x00: 0x2B
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 02 00 55 00 00 00 00 31 1A 00 00 00 00  ....U....1.....
+
+# Write EC index 0x12-0x14: 02 02 00  ...
+
+# Write EC index 0x00: 0x2B
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 02 02 00 55 00 00 00 00 31 1A 00 00 00 00  ....U....1.....
+
+# Write EC index 0x12-0x14: 01 02 00  ...
+
+# Write EC index 0x00: 0x2B
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 01 02 00 55 00 00 00 00 31 1A 00 00 00 00  ....U....1.....
+
+# Read EC index 0x01: 0x48
+
+000924FF666000F	Read 0x00 port 0x0924
+02092504FF660F	Write 0x40 port 0x0925
+02092004FF660F	Write 0x40 port 0x0920
+02092100FF660F	Write 0x00 port 0x0921
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x15
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: FF 00 02 00 55 00 00 00 00 31 1A 00 00 00 00  ....U....1.....
+
+000928FF666000F	Read 0x00 port 0x0928
+
+# Write EC index 0x12-0x15: 63 73 69 6F  csio
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 23 10  .#.
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: FF 00 23 10 6F 00 00 00 00 31 1A 00 00 00 00  ..#.o....1.....
+
+02094E55FF660F	Write 0x55 port 0x094E
+02094E70FF660F	Write 0x07 port 0x094E
+02094F40FF660F	Write 0x04 port 0x094F
+02094E06FF660F	Write 0x60 port 0x094E
+02094F20FF660F	Write 0x02 port 0x094F
+02094E16FF660F	Write 0x61 port 0x094E
+02094F8FFF660F	Write 0xF8 port 0x094F
+02094E07FF660F	Write 0x70 port 0x094E
+02094F30FF660F	Write 0x03 port 0x094F
+02094E03FF660F	Write 0x30 port 0x094E
+02094F10FF660F	Write 0x01 port 0x094F
+02094E70FF660F	Write 0x07 port 0x094E
+02094F40FF660F	Write 0x04 port 0x094F
+02094E06FF660F	Write 0x60 port 0x094E
+00094FFF666020F	Read 0x02 port 0x094F
+02094E16FF660F	Write 0x61 port 0x094E
+00094FFF66608FF	Read 0xF8 port 0x094F
+02094E26FF660F	Write 0x62 port 0x094E
+00094FFF666000F	Read 0x00 port 0x094F
+02094E36FF660F	Write 0x63 port 0x094E
+00094FFF666000F	Read 0x00 port 0x094F
+02094E07FF660F	Write 0x70 port 0x094E
+00094FFF666030F	Read 0x03 port 0x094F
+02094E47FF660F	Write 0x74 port 0x094E
+00094FFF666000F	Read 0x00 port 0x094F
+02094EAAFF660F	Write 0xAA port 0x094E
+
+0002FAFF666010F	Write 0x66 port 0xFAFF
+
+0002FCFF666000F	Write 0x66 port 0xFCFF
+
+0202FA00FF660F	Write 0x00 port 0x02FA
+
+# Write EC index 0x12-0x15: 54 4F 44 20  TOD 
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 73 73 75 70  ssup
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x17: 00 00 FD E3 FF FB  ......
+
+# Write EC index 0x00: 0xAD
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 FD E3 FF FB 00 00 31 1A 00 00 00 00  .........1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x27
+
+# Wait EC
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x17
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 B6 36 35 44 39 4B 31 1A  ...65D9K1.
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x13: 01 00  ..
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 B6 36 35 44 39 4B 31 1A 00 00 00 00  ....65D9K1.....
+
+# Write EC index 0x12: 0x03
+
+# Write EC index 0x00: 0x27
+
+# Wait EC
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x17
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 43 4E 30 55 36 39 32 52  ..CN0U692R
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 31 32 39 36 31 39 35 39  ..12961959
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 35 39 31 38 20 20 20 6B  ..5918   k
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x13: 01 00  ..
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 35 39 31 38 20 20 20 6B 00 00 00 00  ...5918   k....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x27
+
+# Wait EC
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x17
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 B6 36 35 44 39 4B 31 1A  ...65D9K1.
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x13: 01 00  ..
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 B6 36 35 44 39 4B 31 1A 00 00 00 00  ....65D9K1.....
+
+# Write EC index 0x12: 0x01
+
+# Write EC index 0x00: 0x27
+
+# Wait EC
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x17
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 00 00 00 00 00 00 00 00  ..........
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x16: 01 03 00 00 00  .....
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x13: 01 00  ..
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x27
+
+# Wait EC
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x17
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 B6 36 35 44 39 4B 31 1A  ...65D9K1.
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x13: 01 00  ..
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 B6 36 35 44 39 4B 31 1A 00 00 00 00  ....65D9K1.....
+
+# Write EC index 0x12: 0x01
+
+# Write EC index 0x00: 0x27
+
+# Wait EC
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x17
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 00 00 00 00 00 00 00 00  ..........
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x16: 01 03 00 00 00  .....
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x13: 01 00  ..
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12: 0x01
+
+# Write EC index 0x00: 0x85
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x85
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12-0x17: 05 02 00 00 00 00  ......
+
+# Write EC index 0x00: 0xB3
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 01 05 02 00 00 00 00 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x00: 0xAB
+
+# Wait EC
+
+# Read EC index 0x11: 0x05
+
+# Write EC index 0x12-0x15: 49 54 50 4D  ITPM
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x17: 00 00 C8 64 00 00  ...d..
+
+# Write EC index 0x00: 0xAD
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 C8 64 00 00 00 00 00 00 00 00 00 00  ....d..........
+
+# Write EC index 0x12-0x15: 54 58 54 3F  TXT?
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x15: 68 6C 70 63  hlpc
+
+# Write EC index 0x00: 0xC3
+
+# Wait EC
+
+# Write EC index 0x12-0x14: 00 33 10  .3.
+
+# Write EC index 0x00: 0x98
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 33 10 63 00 00 00 00 00 00 00 00 00 00  ..3.c..........
+
+# Write EC index 0x12-0x17: 55 00 C8 64 00 00  U..d..
+
+# Write EC index 0x00: 0xA5
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 55 00 C8 64 00 00 00 00 00 00 00 00 00 00  .U..d..........
+
+# Write EC index 0x12-0x13: 00 00  ..
+
+# Write EC index 0x00: 0x8D
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x05
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 11 00 00 00 00 82 00 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x42
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 82 00 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x27
+
+# Wait EC
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x17
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 B6 36 35 44 39 4B 31 1A  ...65D9K1.
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x13: 01 00  ..
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 B6 36 35 44 39 4B 31 1A 00 00 00 00  ....65D9K1.....
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0xA7
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 B6 36 35 44 39 4B 31 1A 00 00 00 00  ....65D9K1.....
+
+000064FF666042F	Read 0x24 port 0x0064 # 2nd PS/2 port output buffer full
+02006406FF660F	Write 0x60 port 0x0064 # Write CCB
+000064FF6660E2F	Read 0x2E port 0x0064 # Data for PS/2 controller, input buffer full
+000064FF6660C2F	Read 0x2C port 0x0064 # Data for PS/2 controller, input buffer empty
+02006056FF6660F	Write 0x65 port 0x0060 # 1st port translation enabled, 2nd clk disabled, 1st irq enabled
+000064FF666062F	Read 0x26 port 0x0064 # input buffer full
+000064FF666042F	Read 0x24 port 0x0064 # input buffer empty
+0200644DFF660F	Write 0xD4 port 0x0064 # Write to 2nd port input buffer
+000064FF6660E2F	Read 0x2E port 0x0064
+000064FF6660C2F	Read 0x2C port 0x0064
+020060FFFF660F	Write 0xFF port 0x0060 # Reset
+000064FF666062F	Read 0x26 port 0x0064
+000064FF666042F	Read 0x24 port 0x0064
+000064FF666052F	Read 0x25 port 0x0064
+000060FF6660AFF	Read 0xFA port 0x0060 # Acknowledge
+000064FF666042F	Read 0x24 port 0x0064
+000064FF666052F	Read 0x25 port 0x0064
+000060FF6660AAF	Read 0xAA port 0x0060 # response?
+000064FF666042F	Read 0x24 port 0x0064
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666000F	Read 0x00 port 0x0060 # Mouse device ID
+000064FF666042F	Read 0x24 port 0x0064
+02006406FF660F	Write 0x60 port 0x0064 # Write CCB
+000064FF6660E2F	Read 0x2E port 0x0064
+000064FF6660C2F	Read 0x2C port 0x0064
+02006074FF660F	Write 0x47 port 0x0060 # Both clk enabled, both irq enabled
+000064FF666062F	Read 0x26 port 0x0064
+000064FF666042F	Read 0x24 port 0x0064
+0200644DFF660F	Write 0xD4 port 0x0064 # Write to 2nd port input buffer
+000064FF6660E2F	Read 0x2E port 0x0064
+000064FF6660C2F	Read 0x2C port 0x0064
+0200604FFF6660F	Write 0xF4 port 0x0060 # Enable data reporting
+000064FF666052F	Read 0x25 port 0x0064
+000060FF6660AFF	Read 0xFA port 0x0060 # Acknowledge
+
+# Write EC index 0x12-0x13: 01 00  ..
+
+# Write EC index 0x00: 0x2A
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 01 00 B6 36 35 44 39 4B 31 1A 00 00 00 00  ....65D9K1.....
+
+# Write EC index 0x12: 0x02
+
+# Write EC index 0x00: 0x27
+
+# Wait EC
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x17
+
+# Wait EC
+
+# Read EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 00 00 00 00 00 00 00 00  ..........
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 00 00 00 00 00 00 00 00  ..........
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 00 00 00 00 00 00 00 00  ..........
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 00 00 00 00 00 00 00 00  ..........
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 00 00 00 00 00 00 00 00  ..........
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x1B: 01 08 00 00 00 00 00 00 00 00  ..........
+
+# Write EC index 0x13: 0x00
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x12-0x13: 01 00  ..
+
+# Write EC index 0x12: 0x00
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x57
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x15
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12-0x17: 05 02 C8 E7 48 22  ....H"
+
+# Write EC index 0x00: 0xB3
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 01 05 02 C8 E7 48 22 00 00 00 00 00 00 00 00  .....H"........
+
+# Write EC index 0x12-0x13: 0A 00  ..
+
+# Write EC index 0x00: 0x7C
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 01 0A 00 00 03 48 22 00 00 00 00 00 00 00 00  .....H"........
+
+# Write EC index 0x12-0x13: 0A 00  ..
+
+# Write EC index 0x00: 0x7C
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 01 0A 00 00 03 48 22 00 00 00 00 00 00 00 00  .....H"........
+
+# Write EC index 0x12-0x17: 00 00 35 F9 48 22  ..5.H"
+
+# Write EC index 0x00: 0xA3
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 01 00 00 35 F9 48 22 00 00 00 00 00 00 00 00  ...5.H"........
+
+# Write EC index 0x12-0x17: 00 00 86 F2 48 22  ....H"
+
+# Write EC index 0x00: 0xA3
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 01 00 00 86 F2 48 22 00 00 00 00 00 00 00 00  .....H"........
+
+# Write EC index 0x12-0x17: FE 86 24 87 06 F6  ..$...
+
+# Write EC index 0x00: 0xA3
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 01 FE 86 24 87 06 F6 00 00 00 00 00 00 00 00  ...$...........
+
+# Write EC index 0x12-0x17: 00 75 50 75 FE 86  .uPu..
+
+# Write EC index 0x00: 0xAD
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 75 50 75 FE 86 00 00 00 00 00 00 00 00  ..uPu..........
+
+# Write EC index 0x12-0x16: 00 00 00 00 00  .....
+
+# Write EC index 0x00: 0x54
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 00 86 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12-0x16: 00 00 00 00 00  .....
+
+# Write EC index 0x00: 0x54
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 00 86 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12-0x16: 00 00 00 00 00  .....
+
+# Write EC index 0x00: 0x54
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 00 86 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12-0x16: 00 00 00 00 00  .....
+
+# Write EC index 0x00: 0x54
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 00 86 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x57
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 00 86 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x57
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 00 00 00 00 86 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0xBC
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 03 01 01 00 00 86 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0xBC
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 03 01 01 00 00 86 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12: 0x00
+
+# Write EC index 0x00: 0x5B
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: 00 00 01 01 00 00 86 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12: 0x01
+
+# Write EC index 0x00: 0x23
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: F1 01 01 01 00 00 86 00 00 00 00 00 00 00 00  ...............
+
+# Write EC index 0x12: 0x01
+
+# Write EC index 0x00: 0x23
+
+# Wait EC
+
+# Read EC index 0x11-0x1F: F1 01 01 01 00 00 86 00 00 00 00 00 00 00 00  ...............
+
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666081F	Read 0x18 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF6660FFF	Read 0xFF port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666000F	Read 0x00 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666081F	Read 0x18 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF6660CFF	Read 0xFC port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666000F	Read 0x00 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666081F	Read 0x18 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF6660CFF	Read 0xFC port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666000F	Read 0x00 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666081F	Read 0x18 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF66609FF	Read 0xF9 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666000F	Read 0x00 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666081F	Read 0x18 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF66608FF	Read 0xF8 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666000F	Read 0x00 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666081F	Read 0x18 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF66606FF	Read 0xF6 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666000F	Read 0x00 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666083F	Read 0x38 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF66607FF	Read 0xF7 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF6660DFF	Read 0xFD port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666083F	Read 0x38 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF66605FF	Read 0xF5 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF6660DFF	Read 0xFD port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666083F	Read 0x38 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF66605FF	Read 0xF5 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF6660BFF	Read 0xFB port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666083F	Read 0x38 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF66600FF	Read 0xF0 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF66609FF	Read 0xF9 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666083F	Read 0x38 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF66603FF	Read 0xF3 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF6660AFF	Read 0xFA port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666083F	Read 0x38 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF66605FF	Read 0xF5 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF6660BFF	Read 0xFB port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666083F	Read 0x38 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF66604FF	Read 0xF4 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF6660CFF	Read 0xFC port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF666083F	Read 0x38 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF66604FF	Read 0xF4 port 0x0060
+000064FF666052F	Read 0x25 port 0x0064
+000060FF6660CFF	Read 0xFC port 0x0060
+
+# Read EC index 0x01: 0x00
+
+000924FF666000F	Read 0x00 port 0x0924
+02092504FF660F	Write 0x40 port 0x0925
+02092014FF660F	Write 0x41 port 0x0920
+02092100FF660F	Write 0x00 port 0x0921

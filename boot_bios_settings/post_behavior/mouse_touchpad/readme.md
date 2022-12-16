@@ -14,3 +14,8 @@ All three of these files were dumped during boot after selecting the BIOS settin
 - 0x02: "Touchpad-PS/2" option selected. Leaves touchpad enabled when an external PS/2 mouse is connected, according to BIOS help text
 
 If this command is not sent, the touchpad/trackpoint will not function. Either 0x01 or 0x02 must be used as the argument.
+
+The utility `enable_touchpad` can be used to test these. To compile:
+```
+gcc -O2 -o enable_touchpad enable_touchpad.c
+```
